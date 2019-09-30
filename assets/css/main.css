@@ -394,6 +394,7 @@ h3.major,
 h4.major,
 h5.major,
 h6.major {
+  margin-right: 1em;
   padding-bottom: 1em;
   border-bottom: solid 2px rgba(255, 255, 255, 0.125);
 }
@@ -404,6 +405,7 @@ h2 {
 
 h3 {
   font-size: 0.9em;
+  text-align: center;
 }
 
 h4 {
@@ -2199,6 +2201,7 @@ hr.major {
 section.special,
 article.special {
   text-align: center;
+  font-size: 0.2em;
 }
 
 /* Form */
@@ -3100,6 +3103,7 @@ button:disabled,
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
+  justify-content: space-around;
   -moz-flex-wrap: wrap;
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
@@ -3111,12 +3115,8 @@ button:disabled,
   padding: 1.75em 1.75em 0.1em 1.75em;
   background-color: #5772af;
   border-radius: 5px;
-  margin: 1.5em 3em 1.5em 0;
-  width: calc(50% - 1.5em);
-}
-
-.features article:nth-child(2n) {
-  margin-right: 0;
+  margin: 0.5em 0em 0.5em 0;
+  width: calc(20% - 1.5em);
 }
 
 .features article .image {
@@ -3137,7 +3137,7 @@ button:disabled,
 @media screen and (max-width: 980px) {
   .features article {
     margin: 1em 2em 1em 0;
-    width: calc(50% - 1em);
+    width: calc(25% - 1em);
   }
 }
 
@@ -3145,7 +3145,7 @@ button:disabled,
   .features article {
     padding: 1.5em 1.5em 0.1em 1.5em;
     margin: 0.875em 1.75em 0.875em 0;
-    width: calc(50% - 0.875em - 1px);
+    width: calc(20% - 0.875em - 1px);
   }
 
   .features article .image {
